@@ -1,0 +1,296 @@
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    background-color: #f2f4f6;
+}
+
+section {
+    height: 550px;
+}
+
+header {
+    height: 200px;
+    text-align: center;
+    background: #FFF;
+    padding: 4em 0 0 0;
+}
+
+img {
+    border: 0
+}
+
+
+/*--------------------------------fonts------------------------*/
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #525364;
+    font-size: 28px;
+    font-size: 1.875rem
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #ca7ab3;
+    font-size: 40px;
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 3rem;
+    color: #3e8fbb;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #ca7ab3;
+    font-size: 1.375rem
+}
+
+header span p {
+    position: relative;
+    top: -8px;
+    color: #ca7ab3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+}
+
+.section_tagline_font {
+    color: #525364;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.services_header_font {
+    font-family: 'Open Sans', sans-serif;
+    color: #e5f4ff;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.services_main_font {
+    font-family: 'Open Sans', sans-serif;
+    color: #b8d7f1;
+    font-size: 1.1rem;
+    line-height: 2em;
+}
+
+.services_link_font {
+    font-family: 'Open Sans', sans-serif;
+    color: #e5f4ff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    border-bottom: 3px solid #e5f4ff;
+}
+
+.services_link_font:hover {
+    color: #afbbc4;
+    text-decoration: none;
+}
+
+.services_container .row h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #e9faff;
+    font-size: 36px;
+    font-size: 2.25rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.examples_h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #ca7ab3;
+    font-size: 36px;
+    font-size: 2.25rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.7em;
+}
+
+.examples_link_font {
+    font-family: 'Open Sans', sans-serif;
+    color: #ca7ab3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.examples_link_font:hover {
+    color: #be519f;
+    text-decoration: none;
+}
+
+.examples_main_font {
+    font-family: 'Open Sans', sans-serif;
+    color: #76778a;
+    font-size: 1rem;
+    line-height: 2em;
+    font-weight: 400;
+}
+
+.about_h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #e9faff;
+    font-size: 36px;
+    font-size: 2.25rem;
+    width: 100%;
+    text-align: center;
+}
+
+.about-header {
+    font-family: 'Open Sans', sans-serif;
+    color: #e9faff;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+.about-main-font {
+    font-family: 'Open Sans', sans-serif;
+    color: #94bbdb;
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+
+/*-------------------------------header-------------------------*/
+
+header svg {
+    width: 22%;
+    height: auto;
+    float: right;
+}
+
+@media (max-width:576px) {
+    header svg {
+        display: none;
+    }
+}
+
+@media (max-width:576px) {
+    header .col-sm-15 {
+        text-align: center;
+    }
+}
+
+header span {
+    display: inline-block;
+}
+
+header .col-sm-5,
+.col-sm-7 {
+    padding: 0;
+}
+
+section .container {
+    position: relative;
+    top: 30%;
+}
+
+.btn {
+    background-color: #ca7ab3;
+    color: #e9faff;
+    border-radius: 25px;
+}
+
+
+/*-------------------------services-------------------------------*/
+
+.services_container {
+    background-image: url(img/services-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center bottom;
+}
+
+.service_img {
+    width: 30%;
+    height: auto;
+}
+
+
+/*-------------------------------------examples----------------------*/
+
+.who_are_we_bg {
+    width: 70%;
+    background-image: url(img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center;
+    border-radius: 15px 15px 15px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 67px;
+    left: 15%;
+    overflow: hidden;
+}
+
+
+/*-------------------------thankyou section--------------------------*/
+
+.thank-container {
+    height: 500px;
+    background-color: #525364;
+    text-align: center;
+}
+
+.offset-row {
+    position: relative;
+    top: 250px;
+}
+
+.thank_p {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #e9faff;
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+
+/*--------------------------footer-------------------------*/
+
+footer .container-fluid {
+    background-color: #414757;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer a {
+    font-family: 'Open Sans', sans-serif;
+    color: #e9faff;
+    font-size: 1rem;
+    line-height: 1.5em;
+    font-weight: 600;
+    padding: 30px;
+    border-right: 2px solid #476068;
+}
+
+footer a:hover {
+    color: #a4b6bb;
+}
